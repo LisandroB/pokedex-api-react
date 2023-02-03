@@ -45,14 +45,24 @@ const App = () => {
             return(
               <div className="container">
                   <img src={data.sprites["front_default"]}/>
-                  Type <br/>
-                  {pokemonType} <br/>
-                  Weight <br/>
-                  {data.weight} <br/>
-                  Height <br/>
-                  {data.height} <br/>
-                  Number of Battles <br/>
-                  {data.game_indices.length} <br/>
+                  <div className='Types'>
+                    <h1>
+                      Type
+                    </h1> 
+                    {pokemonType} 
+                    <h1>
+                      Weight
+                    </h1> 
+                    {data.weight} 
+                    <h1>
+                      Height 
+                    </h1>
+                    {data.height} 
+                    <h1>
+                      Number of Battles 
+                    </h1>
+                    {data.game_indices.length} 
+                  </div>
               </div>
             )
           })}

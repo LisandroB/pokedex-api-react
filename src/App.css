@@ -25,3 +25,9 @@
 .container img {
   size: 1px;
 }
+
+.Types {
+  display: flex;
+  flex-direction: row;
+
+}
